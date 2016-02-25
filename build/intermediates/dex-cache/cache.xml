@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\neko\Desktop\Android Learning Project\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\neko\Desktop\Android Learning Project\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-f4067f096f425b7c7fe5f858f80ff89163abc597.jar" />
+    </item>
+    <item
+        jar="C:\Users\neko\Desktop\Android Learning Project\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Users\neko\Desktop\Android Learning Project\app\build\intermediates\pre-dexed\debug\classes-4d4aba1276e80de093aba214b4c764c4ee14081e.jar" />
+    </item>
+    <item
+        jar="C:\Users\neko\Desktop\Android Learning Project\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Users\neko\Desktop\Android Learning Project\app\build\intermediates\pre-dexed\debug\classes-5ac9f048b4b52b0ae87670c138d1640f67bb1736.jar" />
+    </item>
+    <item
+        jar="C:\DevEnv\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\Users\neko\Desktop\Android Learning Project\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-1dbdaf3e08304a5c13b6b1588f6b9a8585cabc4f.jar" />
+    </item>
+
+</items>

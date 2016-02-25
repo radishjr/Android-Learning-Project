@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:key="categorykey"
+        android:title="Simple Category"
+        android:summary="category summary1">
+        <CheckBoxPreference android:key="checkbox"
+            android:title="checkbox title"
+            android:text="checkbox text"
+            android:summary="checkbox summary"/>
+    </PreferenceCategory>
+    <EditTextPreference  android:key="edittext"
+        android:title="edittext title"
+        android:text="edittext text"
+        android:summary="edittext summary"/>
+
+    <PreferenceCategory android:key="subviewcategory"
+        android:title="Sub View Category"
+        android:summary="category summary1">
+       <PreferenceScreen android:title="sub screen1" android:summary="move to a sub screen 1" android:key="subscreen1">
+            <SwitchPreference android:title="sub screen switch"
+                android:summary="sub screen switch summary"/>
+       </PreferenceScreen>
+        <PreferenceScreen android:title="sub screen2" android:summary="move to a sub screen 2" android:key="subscreen2">
+            <CheckBoxPreference android:title="sub screen checkbox"
+                android:summary="sub screen checkbox summary"/>
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>
