@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchable xmlns:android="http://schemas.android.com/apk/res/android"
+    android:searchButtonText="Search"
+    android:label="@string/search_label"
+    android:hint="@string/search_hint">
+    <!-- Stuck Here for almost one day! the label should not be hard coded, or the search won't work!!!-->
+</searchable>

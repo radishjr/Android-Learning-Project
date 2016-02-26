@@ -13,6 +13,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.neko.androidlearningproject.Preference.TestPreferenceActivity;
+import com.neko.androidlearningproject.Search.BeginSearchActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -41,9 +42,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 String action = stringList[position];
-
+                Intent intent = null;
                 if(action.equalsIgnoreCase(getString(R.string.action_preference))){
-                    Intent intent = new Intent(MainActivity.this, TestPreferenceActivity.class);
+                    intent = new Intent(MainActivity.this, TestPreferenceActivity.class);
+                }else if(action.equalsIgnoreCase(getString(R.string.action_search))){
+                    intent = new Intent(MainActivity.this, BeginSearchActivity.class);
+                }
+                if(intent!=null) {
                     startActivity(intent);
                 }
             }
